@@ -1,0 +1,6 @@
+Custrep.dat
+D:\Siebel\8.2.2.14.0\ses\siebsrvr\BIN\repimexp.exe /a O /u SADMIN /p {SADMIN_PASSWORD} /c "OREP_SIEB_DSN" /d SIEBEL /r "Siebel Repository" /f D:\Siebel\8.2.2.14.0\ses\dbsrvr\ORACLE\custrep.dat /l D:\Siebel\8.2.2.14.0\ses\siebsrvr\log\custrep_export.log /v Y /Y "SrcWorkspaceName=MAIN;SrcEndVer=;Lang=ALL"
+
+Schema.dll 
+D:\Siebel\8.2.2.14.0\ses\siebsrvr\BIN\ddldict.exe /u SADMIN /p {SADMIN_PASSWORD} /c "OREP_SIEB_DSN" /d SIEBEL /f D:\Siebel\8.2.2.14.0\ses\dbsrvr\ORACLE\schema.ddl /e y /a y /l D:\Siebel\8.2.2.14.0\ses\siebsrvr\log\schema_export.log /n "Siebel Repository" /t dcir
+
